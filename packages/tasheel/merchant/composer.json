@@ -1,0 +1,19 @@
+{
+    "name": "tasheel/merchant",
+    "description": "This is merchant package.",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Tasheel\\Merchant\\" : "src/"
+        }
+    },
+    "extra": {
+        "laravel":{
+            "providers":[
+                "Tasheel\\Merchant\\MerchantServiceProvider"
+            ]
+        }
+    }
+}
